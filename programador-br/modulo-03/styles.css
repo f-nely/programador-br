@@ -32,3 +32,48 @@
     background-size: cover;
     /* background-attachment: fixed; */
 }
+
+/* file medidas-absolutas */
+#cm {
+    background-color: #88c0d0;
+    width: 1cm;
+    height: 1cm;
+    margin-bottom: 7px;
+}
+
+#mm {
+    background-color: #81a1c1;
+    width: 5mm;
+    height: 5mm;
+    margin-bottom: 7px;
+}
+
+#in {
+    background-color: #00ccff;
+    width: 1in;
+    height: 1in;
+    margin-bottom: 7px;
+}
+
+#px {
+    background-color: #00ccaa;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 7px;
+}
+
+#pt {
+    background-color: #79ccaa;
+    width: 10pt;
+    height: 10pt;
+    margin-bottom: 7px;
+}
+
+#pc {
+    background-color: #fab005;
+    width: 10pc;
+    height: 10pc;
+    margin-bottom: 7px;
+}
+
+
