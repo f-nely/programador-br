@@ -105,3 +105,39 @@
     color: #fff;
     padding: 5px;
 }
+
+/* file border */
+.border {
+    border-width: 2px;
+    /* border-style: solid; */
+    /* border-top-color: #66cd00; */
+    border-color: #66cd00;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
