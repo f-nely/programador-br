@@ -76,4 +76,11 @@
     margin-bottom: 7px;
 }
 
+/* file medidas-relativas */
+.container {
+    font-size: 20px;
+}
 
+.inside {
+    font-size: 1em;
+}
