@@ -91,3 +91,17 @@
     background-color: #999;
     font-size: 1rem;
 }
+
+
+/* file margin-padding */
+#base {
+    height: 10px;
+    background-color: #a9e34b;
+    margin: 5px;
+}
+
+#container {
+    background-color: #adb5bd;
+    color: #fff;
+    padding: 5px;
+}
