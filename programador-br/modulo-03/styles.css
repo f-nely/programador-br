@@ -78,9 +78,16 @@
 
 /* file medidas-relativas */
 .container {
+    /* width: 50vw; */
+    /* width: 50vh; */
+    /* width: 50vmin; */
+    width: 50vmax;
+    background-color: #88c0d0;
     font-size: 20px;
 }
 
 .inside {
-    font-size: 1em;
+    width: 100px;
+    background-color: #999;
+    font-size: 1rem;
 }
