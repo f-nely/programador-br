@@ -188,3 +188,14 @@ p {
     /* offset-x | offset-y | blur-radius | color */
     text-shadow: 1px 1px 2px pink;
 }
+
+/* file fontes */
+.fontes {
+    text-shadow: none;
+    color: rgb(10, 9, 9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-style: italic; */
+    font-size: 1em;
+    /* font-weight: bold; */
+    font-variant: small-caps;
+}
