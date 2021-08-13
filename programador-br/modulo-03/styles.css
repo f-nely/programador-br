@@ -1,3 +1,11 @@
+/* geral */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* file main */
 #titulo {
     color: rgb(119, 170, 68);
@@ -140,4 +148,27 @@
 
 .hidden {
     border-style: hidden;
+}
+
+/* file box-model */
+.hometown {
+    background-color: #7fffd4;
+    padding: 10px;
+    border: 5px solid #fab005;
+    margin: 10px;
+}
+
+.intro {
+    background-color: #ddd;
+    outline: 5px solid #00ccff;
+    padding: 5px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(75, 156, 129);
+    margin: 5px;
+    border: 10px solid #1a1b1b;
+    box-sizing: border-box;
 }
