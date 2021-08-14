@@ -238,3 +238,27 @@ p {
 /* .links:visited {
     color: #88c0d0;
 } */
+
+/* file list */
+ul {
+    /* list-style-type: square; */
+    list-style-image: url("check.png");
+    list-style-position: inside;  
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    list-style-type: upper-alpha;
+    background-color: #a3be8c;
+    list-style-position: inside; 
+   
+}
+
+li {
+    border: 1px solid #608b97;
+    padding: 5px;
+}
