@@ -199,3 +199,19 @@ p {
     /* font-weight: bold; */
     font-variant: small-caps;
 }
+
+/* file fontes-customizadas */
+.my-title {
+    color: #008080;
+    font-family: 'Homemade Apple';
+}
+
+.fontes-customizadas {
+    font-family: 'Holyday', 'MonteCarlo', cursive;
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: Holyday;
+    src: url(./fonts/Holiday.otf);
+}
