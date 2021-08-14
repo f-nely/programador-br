@@ -2,8 +2,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
+  /*   margin: 0;
+    padding: 0; */
 }
 
 /* file main */
@@ -215,3 +215,26 @@ p {
     font-family: Holyday;
     src: url(./fonts/Holiday.otf);
 }
+
+/* file estilo-link */
+.links {
+    text-decoration: none;
+    /* background-color: #00ccaa;  */
+    color: #79ccaa;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 2px solid #79ccaa;
+    /* cursor: crosshair; */
+}
+
+.links:active {
+    background-color: #79ccaa;
+    color: #fff;
+}
+
+/* .links:visited {
+    color: #88c0d0;
+} */
