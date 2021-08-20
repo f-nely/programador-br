@@ -1,0 +1,20 @@
+/* file display.html */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inside {
+    background-color: #dd4124;
+    width: 500px;
+}
+
+span {
+    display: inline-block;
+    background-color: darkcyan;
+    width: 500px;
+}
+
+.image {
+    width: 300px;
+    /* visibility: hidden; */
+}
