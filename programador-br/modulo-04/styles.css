@@ -55,6 +55,14 @@ span {
     display: inline-block;
 }
 
+.ret {
+    background-color: #7ac5cd;
+    width: 200px;
+    height: 500px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
 .static {
     position: static;
 }
@@ -72,10 +80,19 @@ span {
     bottom: 20px;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .bg-red {
     background-color: #dd4124;
 }
 
 .bg-blue {
     background-color: #008080;
+}
+
+.bg-green {
+    background-color: #228b22;
 }
