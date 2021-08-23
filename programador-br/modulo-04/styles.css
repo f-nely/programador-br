@@ -47,3 +47,35 @@ span {
 #element-inline-block {
     text-align: center;
 }
+
+/* file position.html */
+.quadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    /* top: 15px;
+    left: -10px; */
+}
+
+.fixed {
+    background-color: #6495ed;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.bg-red {
+    background-color: #dd4124;
+}
+
+.bg-blue {
+    background-color: #008080;
+}
