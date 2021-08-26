@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 2px solid #37b24d;
+            float: left;
+            text-align: center;
+        }
+
+        .card2 {
+            float: left;
+            border: 2px solid #37b24d;
+            clear: left;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .c1 {
+            background-color: #88c0d0;
+            line-height: 200px;
+        }
+
+        .c2 {
+            background-color: #bdb76b;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="c1">
+            Igor Oliveira
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Igor Oliveira
+        </div>
+    </div>
+
+    <div class="card2">
+        <div>
+            Igor Oliveira
+        </div>
+    </div>
+</body>
+</html>
